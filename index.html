@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="USSD">
+    <h1>Welcome to *894# banking </h1><br>
+    <label class="column">Choose an option: </label>
+    <form >
+        
+    <select id="display">
+        <option value="">Welcome to *894#</option>
+        <option value="Quickbank">Quick Banking</option>
+        <option value="">Open an Account</option>
+        <option value="">Loans</option>
+        <option value="">Firstmonie</option>
+        <option value="">Payattitude</option>
+    </select>
+    <br>
+    <label id="error" class="col" ></label>
+         <br><br>
+   
+        <label class="column">Choose an option</label><br>
+
+        <select id="optionA">
+            <option value="">Choose an option</option>
+            <option value="Transfer">Transfer Money</option>
+            <option value="airtime">Airtime</option>
+            <option value="todo">Enquiry Services</option>
+            <option value="">Data</option>
+            <option value="">Pay Bills</option>
+            <option value="">Next page</option> 
+        </select>   
+        <br>
+        <label id="errorE" class="col"></label>
+
+        <br><br>
+
+       <label class="column">Enter Amount:</label> <br>
+
+        <input  id="keyA" type="number"><br>
+
+        <label id="errorA" class="col"></label><br><br>
+
+        <label id="keyP" class="column" >Account Number:</label> <br>
+        <input id="keyB" type="number"><br>
+        <label id="errorB" class="col"></label><br><br>
+
+        <label id="keyC">  <label  class="column"> Bank: </label> <br>
+        <select id="optionB">
+            <option value="">Select recipient bank</option>
+            <option value="Zenith">Zenith bank</option>
+            <option value="">Wema Bank</option>
+            <option value="">Standard Chartered</option>
+            <option value="">Providus Bank</option>
+            <option value="">Enter 3 letters of bank name</option> 
+        </select><br>
+         <label id="errorC" class="col"></label></label>
+        
+        
+        <br><br>
+        <label class="column">PIN:</label><br>
+        <input class="column1" id="keyD" type="password"> <br>
+        <label id="errorD" class="col" ></label>
+        <br><br>        
+
+      
+        <input class="enter" type="button" value="SEND" id="key"><br><br>
+        <label id="function" class="enter"></label>
+    </div>
+        </form>
+    <script src="main.js"></script>
+</body>
+</html>
